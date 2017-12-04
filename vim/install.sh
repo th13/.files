@@ -2,4 +2,6 @@
 
 PREFIX=~/.files/vim
 
-cp $PREFIX/vim-pathogen/autoload/pathogen.vim ~/.config/nvim/autoload/
+ln -s $PREFIX/.vimrc ~/.vimrc
+ln -s $PREFIX/vim-pathogen/autoload/pathogen.vim ~/.config/nvim/autoload/
+
